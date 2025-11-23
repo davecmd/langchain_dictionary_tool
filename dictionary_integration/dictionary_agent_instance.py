@@ -21,7 +21,7 @@ llm = ChatOllama(model="mistral",
 
 # Merriam Webster tool
 mw_tool = MerriamWebster(api_key=MW_API_KEY)
-word_to_define = "etherael"
+word_to_define = "ethereal"
 definition = mw_tool.run(word_to_define)
 
 print(f"*** Merriam-Webster Tool Output for '{word_to_define}' ***")
